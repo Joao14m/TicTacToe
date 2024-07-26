@@ -1,0 +1,44 @@
+.title{
+    text-align: center;
+}
+
+.game-board{
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.grid-item{
+    background-color: rgb(185, 185, 227);
+    border: 1px solid black;
+    padding: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.controls{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+} 
+
+#restart{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* display: none; */
+}
+
+button{
+    background-color: rgb(95, 95, 205);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
